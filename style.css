@@ -1,0 +1,274 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+    background-color: rgb(18, 18, 193);
+    color:white;
+    font-family:'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 193);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: -80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(205, 202, 226);
+   
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    
+}
+nav ul li a:hover{
+    color:white;
+    font-size: 1.2rem;
+}
+.left>img{
+
+    font-size: 1.5rem;
+    height: 40px;
+    width: 100px;
+    margin-left: -110px;
+}
+main {
+    border: 0;
+    background-color: rgb(18, 18, 193);
+    height:1.2px;
+    margin:40px 84px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0px;
+}
+.firstsection>div{
+    margin: 100px 0px;
+    margin-top: -80px;
+}
+.leftsection{
+    font-size: 3rem;
+    width: 600px;
+    margin-top: 10px;
+}
+.leftsection .leftsectionsmall{
+   
+    font-size: 1rem;
+    margin-top: 20px;
+    width: 450px;
+  height: 1.2px;
+  color: rgb(205, 202, 226);
+
+}
+.rightsection img{
+    width: 350px;
+    margin-right: -100px;
+    margin-top: 100px;
+}
+.secondsection{
+   
+    background-color: azure  ;
+    text-decoration: none;
+   height:400px;
+
+}
+.secondsection h1{
+    font-size: 1.9rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+    padding: 0px 123px;
+}
+
+.secondsection .leftsecondsection a{
+    text-decoration: none;
+    color: black;
+    height:400px;
+
+}
+.secondsection .leftsecondsection ul{
+    text-decoration: none;
+   
+
+}
+
+.secondsection .leftsecondsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    margin-top: 100px;
+    height: -100px;
+}
+.secondsection .leftsecondsection .leftsecond{
+    
+  margin-left: -600px; 
+  margin-top: -100px;  
+  margin-bottom: 10px;
+}
+
+.secondsection .leftsectionsmall{
+   
+    font-size: 0.5rem;
+    margin-top: 10px;
+    width: 300px;
+  height: 1.2px;
+  color: rgb(205, 202, 226);
+
+}
+.centersecondsection img{
+    margin-top: -250px;
+    margin-left: 600px;
+    width: 150px;
+    margin-bottom: 100px;
+}
+.secondsection .rightsecondsection a{
+    text-decoration: none;
+    align-content: center;
+    height:400px;
+    color: black;
+
+}
+.secondsection .rightsecondsection ul{
+    text-decoration: none;
+    align-content: center;
+
+}
+.secondsection .rightsecondsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    margin: 100px;
+    height: -100px;
+    margin-right: -1050px;
+    margin-top: -340px;
+}
+.secondsection .rightsecondsection .rightsecond{
+    
+    margin-left: -500px; 
+    margin-top: -100px;  
+    
+  }
+  .secondsection .rightsectionsmall{
+   
+    font-size: 0.5rem;
+    margin-top: 10px;
+    width: 300px;
+  height: 1.2px;
+  color: rgb(205, 202, 226);
+}
+.thirdsection h1{
+    font-size: 1.9rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+    padding: 23px 123px;
+}
+hr{
+    margin-top: 40px;
+}
+.thirdsection{
+    height:400px;
+    background-color: azure;
+}
+.reviewsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:azure;
+   
+
+}
+.boxcontent {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-image {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box {
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box1{
+    margin-top: -300px;
+}
+h3{
+    color: black; 
+   
+}
+.boxcontent{
+    width: 300px;
+    
+}
+.boxcontentsmall {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color:rgb(135, 15, 15);
+}
+.box-image1 {
+    height: 100px;
+    width: 150px;
+    background-size: cover;
+  
+ 
+  
+}
+.boxcontent p{
+    color:grey;
+}
+footer{
+  background-color: rgb(18, 18, 193);
+  margin-top: 1700px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    padding: 23px 123px;
+    margin-bottom: 10px;
+}
+.footer-first{
+    margin-left: 70px;
+}
+.footer-first h2{
+    width:800px;
+    margin-left: 1200px;
+    font-size: 2rem;
+}
+.footer-second{
+    margin-right:1000px;
+    margin-top: 100px;
+}
+.footer-second img{
+    width:40px;
+ margin-left: -450px;
+ justify-content: center;
+}
+.footer-second p{
+    color:white;
+ 
+}
